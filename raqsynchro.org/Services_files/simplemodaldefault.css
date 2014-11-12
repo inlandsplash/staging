@@ -1,0 +1,25 @@
+/*
+ * SimpleModal Basic Modal Dialog
+ * http://www.ericmmartin.com/projects/simplemodal/
+ * http://code.google.com/p/simplemodal/
+ *
+ * Copyright (c) 2010 Eric Martin - http://ericmmartin.com
+ *
+ * Licensed under the MIT license:
+ *   http://www.opensource.org/licenses/mit-license.php
+ *
+ * Revision: $Id: basic.css 242 2010-03-14 00:55:02Z emartin24 $
+ * NOTE: this css file is consumed by SbPlus project.
+ * Test ContactUs element if there are any changes to this file.
+ *
+ */
+
+/* Overlay */
+#simplemodal-overlay {background-color:#000000; cursor:wait;}
+
+/* Container */
+#simplemodal-container {color:#bbb; background-color:transparent; border:0px solid #4D5559;}
+#simplemodal-container code {background:#141414; solid #4D5559; color:#bbb; display:block;}
+#simplemodal-container a {color:#ddd;}
+#simplemodal-container a.modalCloseImg {background:url(../assets/images/Contact_Us_Lightbox_Close_Button_30x29.png) no-repeat; width:30px; height:29px; display:inline; z-index:3200; position:absolute; top:-15px; right:-16px; cursor:pointer;}
+#simplemodal-container {padding:-1px;}

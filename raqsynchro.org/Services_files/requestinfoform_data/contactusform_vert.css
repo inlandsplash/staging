@@ -1,0 +1,110 @@
+
+#contactFormInner {
+height:418px;
+}
+.label_name {
+left:21px;
+top:18px;
+}
+.label_email {
+left:23px;
+top:26px;
+}
+.label_phone {
+left:18px;
+top:31px;
+}
+.label_message {
+left:10px;
+top:45px;
+}
+input, textarea {
+width:176px;
+}
+
+.field_name {
+left:63px;
+margin-bottom:-8px;
+top:-1px;
+width:220px;
+}
+.field_email {
+left:62px;
+margin-bottom:-8px;
+top:6px;
+width:220px;
+}
+.field_phone {
+left:63px;
+margin-bottom:-8px;
+top:11px;
+width:220px;
+}
+.textarea_message {
+height:95px;
+left:0;
+margin-bottom:-8px;
+top:51px;
+width:278px;
+padding-top:4px;
+}
+.tagCaptcha {
+left:11px;
+top:73px;
+width:190px;
+}
+.captchaimg {
+border-width:1px;
+height:30px;
+left:13px;
+top:83px;
+width:94px;
+}
+.captchafield {
+height:24px;
+left:127px;
+top:59px;
+width:160px;
+}
+#contacteeName {
+margin-left:5px;
+}
+#contacteeEmail {
+margin-left:6px;
+}
+#contacteePhone {
+margin-left:5px;
+}
+#messageId {
+margin-left:10px;
+}
+.tagrequired {
+left:-2px;
+padding:16px 24px 14px 14px;
+top:37px;
+}
+#sendButton {
+left:227px;
+top:73px;
+z-index:100;
+}
+.error {
+left:67px;
+top:21px;
+}
+.systemerror {
+left:21px;
+top:6px;
+}
+.actionMessage {
+left:102px;
+top:22px;
+}
+.captchaerror {
+left:102px;
+top:26px;
+}
+.emailFormatError {
+left:68px;
+top:-265px;
+}
