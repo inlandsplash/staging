@@ -1,0 +1,297 @@
+/* This is the custom CSS file by RootAndFlow.com, loaded by WordPress in frontend. */
+/* Positioning */
+/* Above the Fold Splash Graphic */
+#inland-splash-overfold {
+  background-color:#D5D10E;
+  background-repeat:no-repeat;
+  background-position:50% 20rem;
+  position:relative;
+  left:0em;
+  top:0em;
+  width:100%;
+  height:40rem;
+  z-index: 90;
+}
+/* Above the Fold Shield Logo */
+#inland-splash-large-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:5%;
+  width:45rem;
+}
+/*** Top Bar ***/
+/** Across all breakpoints **/
+/* Stack on top of sticky footer before scroll and container */
+.top-bar {
+  z-index: 95;
+}
+
+.top-bar-section ul li > a {
+  text-transform:uppercase;
+}
+/* Typography  */
+h1,h2,h3,h4,h5,h6 {  
+  font-family: 'Oswald', 'sans-serif';
+  text-transform:uppercase;
+}
+h2 {
+  font-size:2.75rem;
+}
+p,em,strong {
+  font-family: 'Montserrat', 'sans-serif';
+}
+p,em {  
+  font-weight:normal;
+  color:#929293;
+}
+.uppercase {
+  text-transform:uppercase;
+}
+strong {
+  color:#808284;
+}
+#summer-text {
+  color:#206083;
+}
+#map-legend-1 {
+ color:#45bfb9;
+}
+#map-legend-2 {
+ color:#e17c00; 
+}
+#map-legend-3 {
+ color:#c0b800; 
+}
+#map-legend ul li:nth-of-type(1) {
+  text-transform:uppercase;
+  font-weight:bold;
+  font-size:large;
+  background:no-repeat;
+  background-position:0 0.5em;
+  background-size:2.5em 2.5em;
+}
+#our-pools {
+  background-image: url('../img/xxlarge/our-pools-swimming-ladder.jpg');
+  background-size: 100% 95%;
+  background-position: right top;
+  background-repeat:no-repeat;
+}
+/* Palette */
+#content {
+  padding:0;
+  border:none;
+}
+.button {
+  background-color:#D5D10E;
+}
+.full-width.footer-widget {
+  background-color:transparent;
+}
+.full-width.footer-widget h4 {
+  color:#45C0BA;
+}
+.full-width.footer-widget p {
+ color:#007DC3; 
+}
+.footer-widget h4 {
+  color:#000000;
+}
+/* Backgrounds */
+body {
+  background:#5d5d5d;
+}
+.teal-top-right-striped-bg {
+  background-image: url('../img/vector/summer-stripes.svg');
+  background-color:#c1e3df;
+  background-size: 100% 100%;
+  color:#206083;
+}
+.teal-top-right-striped-bg h2 {
+  color:#206083;
+  text-align:center;
+  margin-top:20%;
+}
+.teal-top-right-striped-bg strong {
+  color:#206083;
+}
+.headshot {
+  background-color:#D5D10E;
+  border-radius:50%;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.headshot-caption {
+  text-align:center;
+}
+
+/* content sections */
+#inland-splash {
+  padding:0 3.125rem;
+}
+/* div section */
+#aquettes {
+  padding:6.9rem 3.125rem 0;
+}
+/* div section */
+#aqua-motion {
+  padding:6.75rem 3.125rem 0;
+}
+/* div section */
+#about-us {
+  padding:10rem 3.125rem 0;
+}
+/* div section */
+#location {
+  padding:6.75rem 3.125rem 0;
+}
+#map-legend {
+  padding-top:3.5rem;
+}
+/* div section */
+#calendar {
+  padding:7.75rem 3.125rem 0;
+  background-repeat:repeat-x;
+  background-position:left 20em;
+}
+/* div section */
+#news-and-events {
+  padding:8.33rem 3.125rem 12rem;
+}
+.entry-title {
+  padding-top:4rem;
+}
+.calendar {
+  display: block;
+  margin: 0 auto;
+  padding: 3rem 0;
+}
+.no-display {
+  display:none;
+}
+#calendar h2 {
+  margin-bottom:1rem;
+}
+/* Sticky Footer*/
+#fixed-footer {
+  position: fixed;
+  min-width: 100%;
+  bottom: 0;
+  left: 0;
+  z-index: 80;
+  text-align:center; 
+  background-repeat: repeat-x;
+  background-image:url("../img/vector/waves-footer.svg");
+  background-position:0 0;
+  color:#006699; 
+} 
+#fixed-footer h4 {
+  margin:20px 0 4px;
+}
+#footer-slogan {
+  max-width:24rem;
+}
+#phone {
+  margin:24px 0 0;
+  font-weight:bold;
+  font-size:large;
+  color:#006699;
+}
+#credits {
+  margin:30px 0 0;
+  font-size:x-small;
+  color:#006699;
+}
+/* button style */
+button.large, .button.large {
+  padding:0.35rem 0.45rem 0.5rem 0.75rem;
+}
+/** Styling for medium and below **/
+@media screen and (max-width:1024px) {
+  #top-nav-landing {
+    position:relative;
+    top:-45px;
+  }
+  #phone,#credits {
+    margin:4px 0;
+  }
+}
+/** Styling for medium breakpoint only **/
+@media screen and (min-width:641px) and (max-width:1024px) {
+  .top-bar .name {
+    min-width:122px;
+  }
+  .top-bar.expanded {
+    background-color:#E27C00;
+  }
+  .top-bar .name h1 a {
+    padding: 0 8px;
+    width:100%;
+  }
+/* Float nav buttons to right */
+  .top-bar-section {
+    float: right !important;
+  }
+}
+/** Styling for large breakpoint and above **/
+@media screen and (min-width:1025px) {
+  #top-nav-landing {
+    position:relative;
+    top:-110px;
+  }
+  .top-bar {
+    background-image:url('../img/small-mobile/top-bar-bg.png');
+    background-repeat:repeat-x;
+    background-position:0 0;
+    height: 110px;
+    line-height:110px;
+    overflow: visible;
+  }
+  .top-bar .title-area {
+    position:absolute;
+    left: 50%;
+    margin-left:-7.5rem;
+  }
+  .top-bar .name {
+    display:block;
+    height:100px;
+    min-width:15rem;
+    z-index:99;
+    text-align:center;
+  }
+  .top-bar .name h1 a {
+    margin: 0 auto;
+    padding: 0;
+  }
+  #top-bar-logo-shield {
+    position:relative;
+    top:0.775rem;
+    max-width:15rem;
+  }
+  .top-bar-section {
+    height:58px;
+    position: absolute;
+    margin-top:52px;
+    margin-left: -31.75rem;
+    left: 50% !important;
+  }
+  .top-bar-section ul li a {
+    height:58px;
+    font-size:1.5rem;
+  }
+  /* 
+  .top-bar-section ul li > a
+   */
+  .divider {
+    height:58px !important; 
+    display:none;
+  }
+  .top-bar-section li:not(.has-form) a:not(.button) {
+    line-height:3.7rem;
+    padding:0rem 0.65rem;
+  }
+  .menu-item-map {
+    margin-left:15rem;
+  }
+}

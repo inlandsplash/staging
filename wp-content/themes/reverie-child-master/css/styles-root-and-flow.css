@@ -1,0 +1,238 @@
+/* This is the custom CSS file by RootAndFlow.com, loaded by WordPress in frontend. */
+/* Positioning */
+/* Above the Fold Splash Graphic */
+#inland-splash-overfold {
+  background-color:#D5D10E;
+  background-repeat:no-repeat;
+  background-position:50% 20rem;
+  position:relative;
+  left:0em;
+  top:0em;
+  width:100%;
+  height:40rem;
+  z-index: 90;
+}
+/* Above the Fold Shield Logo */
+#inland-splash-large-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:5%;
+  width:45rem;
+}
+/* Sticky Top Bar Centered Logo */
+.top-bar {
+  z-index: 95;
+  background-image:url('../img/small-mobile/top-bar-bg.png');
+  background-repeat:repeat-x;
+  background-position:0 0;
+}
+.top-bar .title-area {
+  position:absolute;
+  left: 50%;
+  margin-left:-7.5rem;
+}
+.top-bar .name {
+  display:block;
+  height:100px;
+  min-width:15rem;
+  z-index:99;
+  text-align:center;
+/*
+  text-align:center;
+*/
+}
+.top-bar .name h1 a {
+  margin: 0 auto;
+  padding: 0;
+}
+#top-bar-logo-shield {
+  position:relative;
+  top:0.775rem;
+}
+.top-bar-section {
+    left: 50% !important;
+    margin-left: -32rem;
+    position: absolute;
+}
+.top-bar-section li:not(.has-form) a:not(.button) {
+  line-height:10rem;
+  padding:0rem 0.65rem;
+}
+.top-bar-section ul li > a {
+  text-transform:uppercase;
+}
+.menu-item-map {
+  margin-left:15rem;
+}
+/* Typography  */
+h1,h2,h3,h4,h5,h6 {  
+  font-family: 'Oswald', 'sans-serif';
+  text-transform:uppercase;
+}
+h2 {
+  font-size:2.75rem;
+}
+p,em,strong {
+  font-family: 'Montserrat', 'sans-serif';
+}
+p,em {  
+  font-weight:normal;
+  color:#929293;
+}
+.uppercase {
+  text-transform:uppercase;
+}
+strong {
+  color:#808284;
+}
+#summer-text {
+  color:#206083;
+}
+#map-legend-1 {
+ color:#45bfb9;
+}
+#map-legend-2 {
+ color:#e17c00; 
+}
+#map-legend-3 {
+ color:#c0b800; 
+}
+#map-legend ul li:nth-of-type(1) {
+  text-transform:uppercase;
+  font-weight:bold;
+  font-size:large;
+  background:no-repeat;
+  background-position:0 0.5em;
+  background-size:2.5em 2.5em;
+}
+#our-pools {
+  background-image: url('../img/xxlarge/our-pools-swimming-ladder.jpg');
+  background-size: 100% 95%;
+  background-position: right top;
+  background-repeat:no-repeat;
+}
+/* Palette */
+#content {
+  padding:0;
+  border:none;
+}
+.button {
+  background-color:#D5D10E;
+}
+.full-width.footer-widget {
+  background-color:transparent;
+}
+.full-width.footer-widget h4 {
+  color:#45C0BA;
+}
+.full-width.footer-widget p {
+ color:#007DC3; 
+}
+.footer-widget h4 {
+  color:#000000;
+}
+/* Backgrounds */
+body {
+  background:#5d5d5d;
+}
+.teal-top-right-striped-bg {
+  background-image: url('../img/vector/summer-stripes.svg');
+  background-color:#c1e3df;
+  background-size: 100% 100%;
+  color:#206083;
+}
+.teal-top-right-striped-bg h2 {
+  color:#206083;
+  text-align:center;
+  margin-top:20%;
+}
+.teal-top-right-striped-bg strong {
+  color:#206083;
+}
+.headshot {
+  background-color:#D5D10E;
+  border-radius:50%;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.headshot-caption {
+  text-align:center;
+}
+
+/* content sections */
+#inland-splash {
+  padding:0 3.125rem;
+}
+/* div section */
+#aquettes {
+  padding:6.9rem 3.125rem 0;
+}
+/* div section */
+#aqua-motion {
+  padding:6.75rem 3.125rem 0;
+}
+/* div section */
+#about-us {
+  padding:10rem 3.125rem 0;
+}
+/* div section */
+#location {
+  padding:6.75rem 3.125rem 0;
+}
+#map-legend {
+  padding-top:3.5rem;
+}
+/* div section */
+#calendar {
+  padding:7.75rem 3.125rem 0;
+  background-repeat:repeat-x;
+  background-position:left 20em;
+}
+/* div section */
+#news-and-events {
+  padding:8.33rem 3.125rem 12rem;
+}
+.entry-title {
+  padding-top:4rem;
+}
+.calendar {
+  display: block;
+  margin: 0 auto;
+  padding: 3rem 0;
+}
+.no-display {
+  display:none;
+}
+#calendar h2 {
+  margin-bottom:1rem;
+}
+/* Sticky Footer*/
+#fixed-footer {
+  position: fixed;
+  min-width: 100%;
+  bottom: 0;
+  left: 0;
+  z-index: 80;
+  text-align:center; 
+  background-repeat: repeat-x;
+  background-image:url("../img/vector/waves-footer.svg");
+  background-position:0 0;
+  color:#006699; 
+} 
+#fixed-footer div {
+  margin-top:1.2em;
+}
+#footer-slogan {
+  max-width:24rem;
+}
+#phone {
+  font-weight:bold;
+  font-size:large;
+  color:#006699;
+}
+#credits {
+  font-size:x-small;
+  color:#006699;
+}
