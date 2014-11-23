@@ -1,11 +1,17 @@
-## Support Us with [Amazon][amazon-smile]{: target="_blank"}  
+## Thanksgiving Swimming Open House  
 
-[![Amazon Smile][amazon-img]][amazon-smile]  
+Come join the Riverside Aquettes for some swimming fun in the warm Shamel Pool. Get Synchro team information too. 
 
-Sign up for Amazon Smile and purchases made at Amazon.com will **support Inland Splash**! 
+Ages 6-12 years old.  
 
-[Sign Up @ Amazon][amazon-smile]
+Day and Time:  
+Saturday, Nov 29, 2014  
+9:00 AM - 12:00 PM
+
+Location:  
+Shamel Park
+3650 Arlington Avenue  
+Riverside, CA 92506  
+
+[RSVP](www.inlandsplash.org/contact-us/)
 {: target="_blank" .action}  
-
-[amazon-smile]: http://smile.amazon.com/ch/23-7395091 "Amazon Smile supports Riverside Aquettes swim club."  
-[amazon-img]: {{ site.baseurl }}{{ page.d.img }}/small-mobile/amazon-smile-supports-riverside-aquettes-swim-club.png "Amazon Smile"  
