@@ -13,5 +13,5 @@ Shamel Park
 3650 Arlington Avenue  
 Riverside, CA 92506  
 
-[RSVP](www.inlandsplash.org/contact-us/)
+[RSVP](contact-us/)
 {: target="_blank" .action}  
